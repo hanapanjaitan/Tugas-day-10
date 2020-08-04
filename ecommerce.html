@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce</title>
+    <script src="commerce.js"></script>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <h2><strong>E-commerce Sederhana</strong></h2>
+<table>
+    <thead>
+        <tr>
+            <th>No.</th>
+            <th>Nama</th>
+            <th>Harga</th>
+            <th>Gambar</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Cadburry</td>
+            <td>13000</td>
+            <td><img src="https://images.heb.com/is/image/HEBGrocery/001151134" alt="E.C" width="150" height="150"></td>
+            <td><input type="button" onclick="addCart()" value="add to cart"></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Kinder Joy</td>
+            <td>10000</td>
+            <td><img src="https://i5.walmartimages.com/asr/aeb228e7-d065-499e-ae33-6a61762d1eba_1.16106c14b1a7fdcc6798d2ef4681aa97.jpeg" alt="E.C" width="150" height="150"></td>
+            <td><input type="button" onclick="addCart()" value="add to cart"></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>KitKat</td>
+            <td>20000</td>
+            <td><img src="https://digitalcontent.api.tesco.com/v2/media/ghs/01032eea-b047-4518-b619-f7858626f4b8/snapshotimagehandler_791813710.jpeg?h=540&w=540" alt="E.C" width="150" height="150"></td>
+            <td><input type="button" onclick="addCart()" value="add to cart"></td>
+        </tr>
+    </tbody>
+</table>
+<p id="notif"></p>
+
+<table>
+    <tbody>
+
+    </tbody>
+</table>
+
+</body>
+</html>
